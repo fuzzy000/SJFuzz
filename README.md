@@ -33,6 +33,8 @@
 
 ## Performance under different configurations
 
+In general, the data within the same cluster indicate that they are more similar to one another than the ones within other clusters. Therefore, the more clusters we have, the more diverse the overall data set is. Specifically, we adapt the widely-used DBScanClustering, a density-based clustering algorithm, to evaluate the diversity of the generated class files in terms of the generated cluster number. DBScanClustering adopts two key parameters, radius and minPts, which are both set to 1 following the studied settings from prior work.
+
 To evaluate the impact of the parameter settings on DJFuzz, we explore different explorationRate (in Algorithm 2) and bound (in Algorithm 1) values on all our benchmarks. We show their impacts on the DBScanClustering-based diversity of the generated class files as in the following box plots. In particular, we set bound to the default 20 and investigate the impact of different explorationRates, i.e., 0.05, 0.1, 0.3 and 0.5 (left sub-figure); we also set explorationRate to the default 0.1 and investigate the impact of different bounds (right sub-figure), i.e., 10, 20, 50 and 100. In the figure, each box plot presents the diversity distribution for one configuration across all our studied subjects. We can observe that different configurations do not impact our approach much and all configurations substantially outperform classming (the gray box plots), indicating the effectiveness and stability of DJFuzz. 
 
 ![boxplot](figures/boxplot.png)

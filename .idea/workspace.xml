@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96bb42df-7d74-42ee-a754-070d3d9442f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sootOutput/com/rjdiff/1610632904577.com.rjdiff.Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sootOutput/com/rjdiff/1610632906496.com.rjdiff.Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sootOutput/com/rjdiff/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/sootOutput/com/rjdiff/Hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/djfuzz/RjdiffFramework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/djfuzz/RjdiffFrameworkResumable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/djfuzz/RjdiffFrameworkResumableAdvanced.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/EnvironmentSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/EnvironmentSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/FlatMutateClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/FlatMutateClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/HelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/HelloTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/MethodCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/MethodCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/MutateClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/MutateClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/UsedStatementHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/UsedStatementHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/Vector/CoordinateHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/Vector/CoordinateHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/Vector/LevenshteinDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/Vector/LevenshteinDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/Vector/MathTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/Vector/MathTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/cluster/Cluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/cluster/Cluster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/cluster/ClusterResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/cluster/ClusterResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/cluster/ClusterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/cluster/ClusterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/cluster/DBScanCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/cluster/DBScanCluster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/cluster/HACluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/cluster/HACluster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/cluster/InstructionFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/cluster/InstructionFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/coevolution/ClusterTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/coevolution/ClusterTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/coevolution/Fitness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/coevolution/Fitness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/coevolution/InstructionDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/coevolution/InstructionDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/differential/DifferentialFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/differential/DifferentialFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/differential/DifferentialLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/process/JVMExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/process/JVMExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/process/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/process/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/process/TaskExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/process/TaskExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/process/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/process/ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/record/Recover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/record/Recover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/BacktrackAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/BacktrackAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/GotoAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/GotoAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/LookupAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/LookupAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/RemoveAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/RemoveAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/ReturnAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/ReturnAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/RfFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/RfFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/Tool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/TrueGotoAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/TrueGotoAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/TrueLookupAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/TrueLookupAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/TrueReturnAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/TrueReturnAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/cluster/ClassesCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/cluster/ClassesCluster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/cluster/Cluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/cluster/Cluster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/cluster/ClusterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/cluster/ClusterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/cluster/DBScanCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/cluster/DBScanCluster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/cluster/HACluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/cluster/HACluster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/cluster/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/cluster/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/cluster/RollBackAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/cluster/RollBackAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/rf/cluster/UniformCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/rf/cluster/UniformCluster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/solver/JVMOutputParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/solver/JVMOutputParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/solver/JVMOutputResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/solver/JVMOutputResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/solver/OutputParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/solver/OutputParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/solver/UniqueChildSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/solver/UniqueChildSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/solver/UniquenessJudge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/solver/UniquenessJudge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/solver/sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/solver/sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/strategy/RandomMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/strategy/RandomMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rjdiff/util/OfflineClusterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/djfuzz/util/OfflineClusterUtil.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="665987733">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="24" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.40" value="3" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.42" value="3" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="1612716708984" value="1" />
+          <entry key="class" value="15" />
+          <entry key="config" value="2" />
+          <entry key="info" value="2" />
+          <entry key="java" value="167" />
+          <entry key="log" value="2" />
+          <entry key="sh" value="1" />
+          <entry key="txt" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="15" />
+          <entry key="JAVA" value="167" />
+          <entry key="Log" value="3" />
+          <entry key="PLAIN_TEXT" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="config" value="23" />
+          <entry key="dummy" value="3" />
+          <entry key="java" value="9791" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="9791" />
+          <entry key="PLAIN_TEXT" value="26" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-282374935">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="6" />
+          <entry key="java" value="14" />
+          <entry key="md" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="14" />
+          <entry key="Markdown" value="12" />
+          <entry key="PLAIN_TEXT" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="11" />
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="11" />
+          <entry key="Markdown" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/djfuzz/DjfuzzFrameworkResumable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="428" column="51" lean-forward="true" selection-start-line="428" selection-start-column="51" selection-end-line="431" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/djfuzz/DjfuzzFrameworkResumableAdvanced.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10912">
+              <caret line="522" column="41" selection-start-line="522" selection-start-column="41" selection-end-line="522" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>iteration l</find>
+      <find>classPath</find>
+      <find>differential-</find>
+      <find>uniquerecor</find>
+      <find>differential-log</find>
+      <find>readcurrentpopulation</find>
+      <find>should not be here!</find>
+      <find>state.setTarget(this.getParent());</find>
+      <find>todo</find>
+      <find>find a child</find>
+      <find>gotoaction</find>
+      <find>DefaultLogger</find>
+      <find>find a</find>
+      <find>differentiall</find>
+      <find>truegoto</find>
+      <find>uniqueRecord</find>
+      <find>children</find>
+      <find>differential-log.txt</find>
+      <find>saveCurrentClass</find>
+      <find>setbackpath</find>
+      <find>backpath</find>
+      <find>submit</find>
+      <find>start</find>
+      <find>mutateAcceptHistory.add</find>
+      <find>waiting for</find>
+      <find>generated</find>
+      <find>State</find>
+      <find>rjdiff</find>
+      <find>classming</find>
+      <find>Unique Children BackPath ====</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>djfuzz</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/rjdiff/solver/OutputResult.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/solver/ContentParser.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/process/ThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/solver/OutputParser.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/solver/Judge.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/rf/cluster/TrueGotoAction.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/rf/TrueLookupAction.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/rf/TrueReturnAction.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/rf/TrueGotoAction.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/strategy/RandomMutation.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/coevolution/InstructionDownloader.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/RjdiffFrameworkResumable.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/EnvironmentSetting.java" />
+        <option value="$PROJECT_DIR$/JVM.config" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/solver/JVMOutputParser.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/solver/JVMOutputResult.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/differential/DifferentialLogger.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/solver/UniquenessJudge.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/rf/State.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/rf/LookupAction.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/rf/ReturnAction.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/rf/GotoAction.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/MutateClass.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/FlatMutateClass.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/differential/DifferentialFramework.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/solver/UniqueChildSaver.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/RjdiffFrameworkResumableAdvanced.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/process/JVMExecutor.java" />
+        <option value="$PROJECT_DIR$/src/com/rjdiff/RjdiffFrameworkResumableDiffGuide.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/djfuzz/differential/DifferentialFramework.java" />
+        <option value="$PROJECT_DIR$/src/com/djfuzz/DjfuzzFrameworkResumableDiffGuide.java" />
+        <option value="$PROJECT_DIR$/src/com/djfuzz/DjfuzzFrameworkResumable.java" />
+        <option value="$PROJECT_DIR$/src/com/djfuzz/DjfuzzFrameworkResumableAdvanced.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\apache-maven-3.6.0\repository" />
+        <option name="mavenHome" value="F:/apache-maven-3.6.0" />
+        <option name="usePluginRegistry" value="true" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Xms128m -Xmx512m -Duser.language=zh -Dfile.encoding=UTF-8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="508" />
+    <option name="y" value="183" />
+    <option name="width" value="974" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DJFuzz-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DJFuzz-code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DJFuzz-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DJFuzz-code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DJFuzz-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DJFuzz-code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="djfuzz" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="CatdeaLogs" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614667882371" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rjdiff" />
+      <recent name="com.rjdiff.rf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DATA\Git\RJDIFF\sootOutput\com\rjdiff" />
+      <recent name="D:\DATA\Git\RJDIFF\src\com\rjdiff\solver" />
+      <recent name="D:\DATA\Git\RJDIFF\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DjfuzzFrameworkResumableAdvanced">
+    <configuration name="DjfuzzFrameworkResumableAdvanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.djfuzz.DjfuzzFrameworkResumableAdvanced" />
+      <module name="RJDIFF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.djfuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DjfuzzFrameworkResumableDiffGuide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.djfuzz.DjfuzzFrameworkResumableDiffGuide" />
+      <module name="RJDIFF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.djfuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JVMOutputParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rjdiff.solver.JVMOutputParser" />
+      <module name="RJDIFF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.djfuzz.solver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RjdiffFrameworkResumableAdvanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rjdiff.RjdiffFrameworkResumableAdvanced" />
+      <module name="RJDIFF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.djfuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RjdiffFrameworkResumableDiffGuide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rjdiff.RjdiffFrameworkResumableDiffGuide" />
+      <module name="RJDIFF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.djfuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JVMOutputParser" />
+      <item itemvalue="Application.RjdiffFrameworkResumableAdvanced" />
+      <item itemvalue="Application.RjdiffFrameworkResumableDiffGuide" />
+      <item itemvalue="Application.DjfuzzFrameworkResumableDiffGuide" />
+      <item itemvalue="Application.DjfuzzFrameworkResumableAdvanced" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DjfuzzFrameworkResumableAdvanced" />
+        <item itemvalue="Application.DjfuzzFrameworkResumableDiffGuide" />
+        <item itemvalue="Application.RjdiffFrameworkResumableDiffGuide" />
+        <item itemvalue="Application.RjdiffFrameworkResumableAdvanced" />
+        <item itemvalue="Application.JVMOutputParser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96bb42df-7d74-42ee-a754-070d3d9442f5" name="Default Changelist" comment="" />
+      <created>1610005384881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610005384881</updated>
+      <workItem from="1610005386832" duration="2622000" />
+      <workItem from="1610023626393" duration="5533000" />
+      <workItem from="1610031134138" duration="590000" />
+      <workItem from="1610076734293" duration="15910000" />
+      <workItem from="1610436126249" duration="1767000" />
+      <workItem from="1610528313003" duration="13458000" />
+      <workItem from="1610627893652" duration="13695000" />
+      <workItem from="1610642103691" duration="743000" />
+      <workItem from="1610685603407" duration="11942000" />
+      <workItem from="1610898476658" duration="598000" />
+      <workItem from="1610943580033" duration="111000" />
+      <workItem from="1612173230789" duration="1044000" />
+      <workItem from="1612255166845" duration="3217000" />
+      <workItem from="1612601925247" duration="598000" />
+      <workItem from="1612673122689" duration="20807000" />
+      <workItem from="1612775437894" duration="1323000" />
+      <workItem from="1612836502753" duration="4366000" />
+      <workItem from="1613729343411" duration="2287000" />
+      <workItem from="1613788152376" duration="1973000" />
+      <workItem from="1613793075256" duration="4515000" />
+      <workItem from="1613802257341" duration="5125000" />
+      <workItem from="1613815041568" duration="3047000" />
+      <workItem from="1613829679853" duration="910000" />
+      <workItem from="1613915302020" duration="4336000" />
+      <workItem from="1613952519418" duration="2476000" />
+      <workItem from="1613961034661" duration="4133000" />
+      <workItem from="1614048647090" duration="1199000" />
+      <workItem from="1614479812097" duration="830000" />
+      <workItem from="1614654001307" duration="872000" />
+      <workItem from="1614656050560" duration="624000" />
+      <workItem from="1614656774138" duration="3913000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="134564000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988381" visible="true" weight="0.19189766" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997677" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36802575" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27038628" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.75107294" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.22663802" />
+      <window_info anchor="bottom" id="EvoSuite" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32997677" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.496112" weight="0.24946696" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="ASM" order="6" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.4988381" weight="0.32975766" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.503888" side_tool="true" weight="0.24946696" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988381" weight="0.16257995" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997677" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36373392" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33690986" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31008583" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.22663802" />
+      <window_info anchor="bottom" id="EvoSuite" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32997677" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.496112" weight="0.24946696" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="ASM" order="6" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.4988381" weight="0.32975766" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Structure" order="10" sideWeight="0.503888" side_tool="true" weight="0.24946696" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/djfuzz/process/ThreadPool.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="path == null" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/com/djfuzz/MutateClass.java</url>
+          <line>315</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/djfuzz/rf/LookupAction.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/djfuzz/MutateClass.java</url>
+          <line>608</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/djfuzz/MutateClass.java</url>
+          <line>511</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/djfuzz/solver/JVMOutputParser.java</url>
+          <line>243</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/djfuzz/solver/JVMOutputParser.java</url>
+          <line>242</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/djfuzz/MutateClass.java</url>
+          <line>209</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="newOne == null" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/com/djfuzz/rf/GotoAction.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/djfuzz/rf/State.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/djfuzz/MutateClass.java</url>
+          <line>226</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/djfuzz/MutateClass.java</url>
+          <line>243</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/djfuzz/differential/DifferentialLogger.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/djfuzz/differential/DifferentialFramework.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((FlatMutateClass)mutateAcceptHistory.get(0).target).backPath" custom="com.rjdiff.FlatMutateClass" />
+        <watch expression="this.sootClass." language="JAVA" />
+        <watch expression="this.methodLiveBody" language="JAVA" />
+        <watch expression="this.getSootClass()" language="JAVA" />
+        <watch expression="body" language="JAVA" />
+        <watch expression="UniquenessJudge.differenceHashSet" language="JAVA" />
+        <watch expression="outputResult.toString()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>inputQueue</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.methodScores.get(method)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sb.toString().trim()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>current.getTarget().getBackPath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>current.getTarget()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>newOne == null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>current.getTarget().getBackPath()==null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>path == null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cure</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>newOne.getBackPath()==null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>outputResult.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>UniquenessJudge.differenceHashSet</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>body</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.getSootClass()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.methodLiveBody</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.sootClass.</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://F:/java/jdk1.8.0_172/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4422">
+          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/record/Recover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="26" column="78" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/RjdiffFrameworkResumable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="372" column="56" lean-forward="true" selection-start-line="372" selection-start-column="56" selection-end-line="372" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/sootclasses-trunk-jar-with-dependencies.jar!/soot/G.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sootOutput/currentPopulation/1610708698761.com.rjdiff.Hello.class" />
+    <entry file="jar://F:/java/jdk1.8.0_172/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/sootclasses-trunk-jar-with-dependencies.jar!/soot/Scene.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="1509" column="16" selection-start-line="1509" selection-start-column="16" selection-end-line="1509" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/java/jdk1.8.0_172/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="1011" column="46" selection-start-line="1011" selection-start-column="46" selection-end-line="1011" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sootOutput/currentPopulation/population.info">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resetAll.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/rf/Tool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JVM.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uniqueRecord.log.1612716708984" />
+    <entry file="file://$PROJECT_DIR$/uniqueRecord.log" />
+    <entry file="file://$PROJECT_DIR$/differential-log.txt" />
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/solver/JVMOutputResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/coevolution/InstructionDownloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9636">
+          <caret line="452" selection-start-line="452" selection-end-line="456" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/rf/LookupAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/rf/RemoveAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/rf/ReturnAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/strategy/RandomMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/rf/TrueGotoAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/solver/JVMOutputParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2583">
+          <caret line="242" column="47" selection-start-line="242" selection-start-column="47" selection-end-line="242" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/rf/GotoAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/java/jdk1.8.0_172/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3630">
+          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/differential/DifferentialLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/rf/TrueLookupAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/java/jdk1.8.0_172/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/java/jdk1.8.0_172/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="261" column="6" selection-start-line="261" selection-start-column="6" selection-end-line="261" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#1383#1384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/process/TaskExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/solver/OutputParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/solver/UniquenessJudge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/FlatMutateClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="73" column="50" selection-start-line="73" selection-start-column="50" selection-end-line="73" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/RjdiffFrameworkResumableAdvanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6226">
+          <caret line="309" column="16" selection-start-line="309" selection-start-column="16" selection-end-line="309" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/rf/RfFramework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/rf/BacktrackAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/MutateClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/process/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/process/JVMExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
+          <folding>
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/process/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/rf/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/rf/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="136" column="31" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#2341#2342#0" expanded="true" />
+            <element signature="e#2370#2371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/EnvironmentSetting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="110">
+            <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/DjfuzzFramework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/solver/UniqueChildSaver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/differential/DifferentialFramework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="178" column="35" selection-start-line="178" selection-start-column="35" selection-end-line="178" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2206#2207#0" expanded="true" />
+            <element signature="e#2239#2240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/DjfuzzFrameworkResumableDiffGuide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="521" column="88" selection-start-line="521" selection-start-column="88" selection-end-line="521" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/DjfuzzFrameworkResumable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="428" column="51" lean-forward="true" selection-start-line="428" selection-start-column="51" selection-end-line="431" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/djfuzz/DjfuzzFrameworkResumableAdvanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10912">
+          <caret line="522" column="41" selection-start-line="522" selection-start-column="41" selection-end-line="522" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jtcl-2.9.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>RJDIFF</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>tools</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -36,3 +36,50 @@
 To evaluate the impact of the parameter settings on DJFuzz, we explore different explorationRate (in Algorithm 2) and bound (in Algorithm 1) values on all our benchmarks. We show their impacts on the DBScanClustering-based diversity of the generated class files as in the following box plots. In particular, we set bound to the default 20 and investigate the impact of different explorationRates, i.e., 0.05, 0.1, 0.3 and 0.5 (left sub-figure); we also set explorationRate to the default 0.1 and investigate the impact of different bounds (right sub-figure), i.e., 10, 20, 50 and 100. In the figure, each box plot presents the diversity distribution for one configuration across all our studied subjects. We can observe that different configurations do not impact our approach much and all configurations substantially outperform classming (the gray box plots), indicating the effectiveness and stability of DJFuzz. 
 
 ![boxplot](figures/boxplot.png)
+
+## Usage
+
+### Main-entry Mode
+
+In the main method of `DjfuzzFrameworkResumable.java`, add following code to start test generation:
+
+```java
+fwk.process(fully_qualified_class_name, iteration_number,
+            parameters_for_the_class, class_path,
+            dependencies_path, jvm_options);
+```
+
+For example:
+
+```java
+fwk.process("org.sunflow.Benchmark", 50000,
+            new String[]{"-bench","2","256"},
+            "./sootOutput/sunflow-0.07.2/",
+            "dependencies/janino-2.5.15.jar", "");
+```
+
+### JUnit-entry Mode
+
+In the main method of `DjfuzzFrameworkResumableAdvanced.java`, add following code to start test generation:
+
+```java
+Main.useJunit(junit_jar_path, hamcrest_jar_path,
+            tool_jar_path, fully_qualified_name_of_test_class);
+fwk.process(fully_qualified_class_name, iteration_number,
+            parameters_for_the _class, class_path,
+            dependencies_path, jvm_options);
+```
+
+For example:
+
+```java
+Main.useJunit("./junit-4.12.jar", "./hamcrest-core-1.3.jar",
+            "./tools.jar", "org.apache.tools.ant.AntClassLoaderTest");
+fwk.process("org.apache.tools.ant.AntClassLoader", 10000, args,
+            "./sootOutput/junit-ant/",
+            "", "");
+```
+
+### Collect Generated Classes
+
+Generated live mutant is in directory `./AcceptHistory/` and `./RejectHistory/`. Mutants with no live code is in `./nolivecode/`. All the generated mutants have backup file in `./tmp/`. The path of the discrepancy-inducing class file will be written into `differential-log.txt`.

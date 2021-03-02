@@ -35,4 +35,4 @@
 
 To evaluate the impact of the parameter settings on DJFuzz, we explore different explorationRate (in Algorithm 2) and bound (in Algorithm 1) values on all our benchmarks. We show their impacts on the DBScanClustering-based diversity of the generated class files as in the following box plots. In particular, we set bound to the default 20 and investigate the impact of different explorationRates, i.e., 0.05, 0.1, 0.3 and 0.5 (left sub-figure); we also set explorationRate to the default 0.1 and investigate the impact of different bounds (right sub-figure), i.e., 10, 20, 50 and 100. In the figure, each box plot presents the diversity distribution for one configuration across all our studied subjects. We can observe that different configurations do not impact our approach much and all configurations substantially outperform classming (the gray box plots), indicating the effectiveness and stability of DJFuzz. 
 
-![image-20210302141432870](C:\Users\Ouyang\AppData\Roaming\Typora\typora-user-images\image-20210302141432870.png)
+![boxplot](figures/boxplot.png)

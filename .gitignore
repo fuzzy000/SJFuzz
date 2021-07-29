@@ -27,7 +27,7 @@ hs_err_pid*
 /out/*
 /nolivecode/*
 /tmp/*
-*log*
+#*log*
 *.state
 *.zip
 # *class

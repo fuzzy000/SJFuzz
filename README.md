@@ -29,7 +29,7 @@
 | OpenJDK 8u275 crashed on a heavy-load server.                | OpenJDK 8u275                                    |                                                  | https://bugs.java.com/bugdatabase/view_bug.do?bug_id=JDK-8262342 |
 | OpenJDK 9.0.4 crashed on a heavy-load server.                | OpenJDK 9.0.4                                    |                                                  | https://bugs.java.com/bugdatabase/view_bug.do?bug_id=JDK-8262343 |
 | OpenJDK 11.0.9 crashed on a heavy-load server.               | OpenJDK 11.0.9                                   |                                                  | http://bugs.java.com/bugdatabase/view_bug.do?bug_id=JDK-8262344 |
-| Total                                                        | 46                                               | 19                                               |                                                              |
+| Total                                                        | 46                                               | 22                                               |                                                              |
 
 ## Performance under different configurations
 

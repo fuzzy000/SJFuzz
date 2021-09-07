@@ -39,6 +39,10 @@ To evaluate the impact of the parameter settings on DJFuzz, we explore different
 
 ![boxplot](figures/boxplot.png)
 
+## Total Discrepancies trend with and without "discrepancy-driven" concept
+
+![](figures/total-trend.png)
+
 ## Usage
 
 ### Main-entry Mode

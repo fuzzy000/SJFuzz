@@ -1,7 +1,7 @@
-# DJFuzz
+# SJFuzz
  Discrepancy-driven JVM Fuzzing
 
-## Issues Found By DJFuzz
+## Issues Found By SJFuzz
 
 | Issues                                                       | Impact Versions                                  | Confirmed                                        | Link                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------------------ |
@@ -10,7 +10,7 @@
 | J9 (1.8.0_275) threw an AssertionError; J9 (11.0.9) threw an ArrayIndexOutOfBoundsException; OpenJDK (8u275, 9.0.4, 11.0.9) and J9 (9.0.4) threw an VerifyError; | J9 (1.8.0_275) and J9 (11.0.9)                   |             J9 (1.8.0_275) and J9 (11.0.9)                                     | https://github.com/eclipse/openj9/issues/11685               |
 | J9 (8u275, 11.0.9) passed the JUnit test while OpenJDK (8u275, 9.0.4, 11.0.9) and J9 (9.0.4) threw a VerifyError. | J9 (8u275, 11.0.9)                               | J9 (8u275, 11.0.9)                               | https://github.com/eclipse/openj9/issues/11684               |
 | J9: failed to throw VerifyError?                             | J9(1.8.0_232) J9(11.0.5)                         | J9(1.8.0_232) J9(11.0.5)                         | https://github.com/eclipse/openj9/issues/9385                |
-| OpenJDK 8u232, 9.0.4 executed a different program path compared to OpenJDK11, J9 | OpenJDK 8u232, 9.0.4                             | OpenJDK 8u232, 9.0.4                             | https://bugs.openjdk.java.net/browse/JDK-8259961             |
+| OpenJDK 8u232, 9.0.4 executed a different program path compared to OpenJDK11, J9 | OpenJDK 8u232, 9.0.4                             | | https://bugs.openjdk.java.net/browse/JDK-8259961             |
 | J9 (1.8.0_275) and J9 (11.0.9) failed to threw AssertionError | J9 (1.8.0_275)  J9 (11.0.9)                      | J9 (1.8.0_275) J9 (11.0.9)                       | https://github.com/eclipse/openj9/issues/11721               |
 | J9 (11.0.9) crashed while executing a test file on a heavy-load server. | J9 (11.0.9)                                      | J9 (11.0.9)                                      | https://github.com/eclipse/openj9/issues/11725               |
 | JDK can not find MANIFEST.MF files by ClassLoader.getResources() | OracleJDK6, OracleJDK7, OracleJDK8, OpenJDK8u232 | OracleJDK6, OracleJDK7, OracleJDK8, OpenJDK8u232 | https://bugs.java.com/bugdatabase/view_bug.do?bug_id=JDK-8244083 |
@@ -29,19 +29,19 @@
 | OpenJDK 8u275 crashed on a heavy-load server.                | OpenJDK 8u275                                    |                                                  | https://bugs.java.com/bugdatabase/view_bug.do?bug_id=JDK-8262342 |
 | OpenJDK 9.0.4 crashed on a heavy-load server.                | OpenJDK 9.0.4                                    |                                                  | https://bugs.java.com/bugdatabase/view_bug.do?bug_id=JDK-8262343 |
 | OpenJDK 11.0.9 crashed on a heavy-load server.               | OpenJDK 11.0.9                                   |                                                  | http://bugs.java.com/bugdatabase/view_bug.do?bug_id=JDK-8262344 |
-| Total                                                        | 46                                               | 22                                               |                                                              |
+| Total                                                        | 46                                               | 20                                               |                                                              |
 
 ## Performance under different configurations
 
 In general, the data within the same cluster indicate that they are more similar to one another than the ones within other clusters. Therefore, the more clusters we have, the more diverse the overall data set is. Specifically, we adapt the widely-used DBScanClustering, a density-based clustering algorithm, to evaluate the diversity of the generated class files in terms of the generated cluster number. DBScanClustering adopts two key parameters, radius and minPts, which are both set to 1 following the studied settings from prior work.
 
-To evaluate the impact of the parameter settings on DJFuzz, we explore different explorationRate (in Algorithm 2) and bound (in Algorithm 1) values on all our benchmarks. We show their impacts on the DBScanClustering-based diversity of the generated class files as in the following box plots. In particular, we set bound to the default 20 and investigate the impact of different explorationRates, i.e., 0.05, 0.1, 0.3 and 0.5 (left sub-figure); we also set explorationRate to the default 0.1 and investigate the impact of different bounds (right sub-figure), i.e., 10, 20, 50 and 100. In the figure, each box plot presents the diversity distribution for one configuration across all our studied subjects. We can observe that different configurations do not impact our approach much and all configurations substantially outperform classming (the gray box plots), indicating the effectiveness and stability of DJFuzz. 
+To evaluate the impact of the parameter settings on SJFuzz, we explore different explorationRate (in Algorithm 2) and bound (in Algorithm 1) values on all our benchmarks. We show their impacts on the DBScanClustering-based diversity of the generated class files as in the following box plots. In particular, we set bound to the default 20 and investigate the impact of different explorationRates, i.e., 0.05, 0.1, 0.3 and 0.5 (left sub-figure); we also set explorationRate to the default 0.1 and investigate the impact of different bounds (right sub-figure), i.e., 10, 20, 50 and 100. In the figure, each box plot presents the diversity distribution for one configuration across all our studied subjects. We can observe that different configurations do not impact our approach much and all configurations substantially outperform classming (the gray box plots), indicating the effectiveness and stability of SJFuzz. 
 
 ![boxplot](figures/boxplot.png)
 
-## Total Discrepancies trend with and without "discrepancy-driven" concept
+<!--- ## Total Discrepancies trend with and without "discrepancy-driven" concept
 
-![](figures/total-trend.png)
+![](figures/total-trend.png) --->
 
 ## Usage
 
